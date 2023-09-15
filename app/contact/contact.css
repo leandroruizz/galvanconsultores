@@ -1,0 +1,21 @@
+.contacto {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.titulo-contacto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #11003a;
+    margin: 10px;
+}
+
+.texto-contacto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #818181;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
