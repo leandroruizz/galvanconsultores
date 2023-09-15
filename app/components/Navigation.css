@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: 5px 5px 15px  rgb(0, 0, 0);
 }
 .nav-lista {
     display: flex;
@@ -22,10 +22,13 @@
     text-align: center;
     background-color: rgb(0, 44, 239);
     transition: all 0.5s ease; 
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.468);
 }
 .nav-item:hover{
     padding: 5px 10px;
-    background: rgb(255, 255, 255);
+    background: rgb(127, 120, 255);
+    border-radius: 5px;
 }
 .nav-text{
     text-decoration: none;
@@ -34,5 +37,9 @@
     color: rgb(255, 255, 255);
 }
 .nav-text:hover{
-    color: hsl(50, 100%, 56%);
+    color: hsl(0, 0%, 100%);
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.718);
+}
+.logo-galvan{
+    width: 50%;
 }
