@@ -1,4 +1,120 @@
 .inicio {
-    margin-top: 150px;
-    margin-bottom: 50px;
+margin: 100px 50px 50px 50px;
+}
+.conttitulo{
+    width: 100%;
+    height: 500%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-image: url('../public/imagenes/backroundgalvan.jpg');
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+.tituloprincipal{
+    color: blue;
+    font-size: 5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 50px rgb(0, 0, 0);
+    text-align: center;
+}
+.subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: xx-large;
+    background-color: rgb(9, 9, 74);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.718);
+}
+.subtituloprincipal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: 0px 0px 5px rgb(21, 0, 255);
+    font-size: xx-large;
+    margin-left: 10px;
+}
+.contenedornosotros{
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.692);
+}
+.nosotros{
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 89, 255);
+    font-size: x-large;
+    text-align: left;
+}
+.textonosotros{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(45, 45, 91);
+    margin: 20px;
+    text-align: left;
+}
+.textosoporte{
+    text-align: center;
+    color: #f0f8ff;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.692);
+}
+.textosoporte:hover{
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.reunion{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.respuestacont{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 8, 161);
+    border-radius: 10px;
+    width: 80%;
+    height: 5%;
+}
+.contenedorprincipales{
+    display: flex;
+    overflow-x: auto;
+    scrollbar-gutter: stable;
+    padding: 20px;
+}
+.contenedorprincipales::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+  
+
+}
+.contenedorprincipales::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.contenedorprincipales:hover::-webkit-scrollbar-thumb {
+    background-color: #09C;
+  }
+.contventajas{
+    background-color: #f0f8ff;
+    margin: 20px;
+    padding: 5px;
+    height: 150px;
+}
+.ventajas{
+    background-color: #000000;
+    color: #f0f8ff;
+    padding: 5px;
+    text-align: center;
+    
 }
