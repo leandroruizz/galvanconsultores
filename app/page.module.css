@@ -1,9 +1,9 @@
 .inicio {
-margin: 100px 50px 50px 50px;
+margin: 80px 20px 20px 20px;
 }
 .conttitulo{
     width: 100%;
-    height: 500%;
+    height: 400%;
     padding-top: 40px;
     padding-bottom: 20px;
     background-image: url('../public/imagenes/backroundgalvan.jpg');
@@ -15,7 +15,7 @@ margin: 100px 50px 50px 50px;
     color: blue;
     font-size: 5vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 0px 0px 50px rgb(0, 0, 0);
+    text-shadow: 0px 0px 30px rgb(0, 0, 0);
     text-align: center;
 }
 .subtitulo{
@@ -32,24 +32,36 @@ margin: 100px 50px 50px 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
     text-align: left;
-    text-shadow: 0px 0px 5px rgb(21, 0, 255);
-    font-size: xx-large;
-    margin-left: 10px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    font-size: 2.5vw;
+    margin: 10px;
 }
 .contenedornosotros{
-    margin-top: 30px;
-    margin-left: 70px;
-    padding: 10px;
-    background-color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    margin: 30px 0px 20px 20px;
+    background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.692);
+}
+.reunion{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 5px;
 }
 .nosotros{
     margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(80, 89, 255);
-    font-size: x-large;
+    font-size: 3vw;
     text-align: left;
+}
+.respuestacont{
+    margin: 10px;
+    width: fit-content;
+    background-color: rgb(0, 8, 161);
+    border-radius: 10px;
 }
 .textonosotros{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -71,21 +83,6 @@ margin: 100px 50px 50px 50px;
     background-color: white;
     color: black;
 }
-.reunion{
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
-    margin: 10px;
-}
-.respuestacont{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    background-color: rgb(0, 8, 161);
-    border-radius: 10px;
-    width: 80%;
-    height: 5%;
-}
 .contenedorprincipales{
     display: flex;
     overflow-x: auto;
@@ -106,15 +103,40 @@ margin: 100px 50px 50px 50px;
     background-color: #09C;
   }
 .contventajas{
-    background-color: #f0f8ff;
+    height: fit-content;
+    background-color: #94c1e8;
     margin: 20px;
     padding: 5px;
-    height: 150px;
+    border-radius: 5px;
 }
 .ventajas{
-    background-color: #000000;
-    color: #f0f8ff;
+    background-color: #ffffff;
+    color: #3989cf;
     padding: 5px;
     text-align: center;
+    border-radius: 5px;
     
+}
+.contnumeros{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+}
+.numeros{
+    color: rgb(12, 0, 147);
+    margin: 5px;
+
+}
+.servicio{
+    margin: 5px;
+    text-align: center;
+    font-size: 2vw;
+    background-color: ;
+}
+.textoservicio{
+    text-align: left;
+    margin-left: 5px;
+    color: #09C;
 }
