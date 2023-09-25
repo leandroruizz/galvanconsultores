@@ -1,22 +1,18 @@
 .inicio {
-margin: 80px 20px 20px 20px;
+margin: 50px 20px;
 }
 .conttitulo{
     width: 100%;
-    height: 400%;
-    padding-top: 40px;
-    padding-bottom: 20px;
     background-image: url('../public/imagenes/backroundgalvan.jpg');
     background-size: 100%;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7);
 }
 .tituloprincipal{
-    color: blue;
-    font-size: 5vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 0px 0px 30px rgb(0, 0, 0);
-    text-align: center;
+    margin-top: 9vw;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 35%;
 }
 .subtitulo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,24 +22,27 @@ margin: 80px 20px 20px 20px;
     background-color: rgb(9, 9, 74);
     padding: 10px;
     border-radius: 5px;
-    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.718);
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7);
 }
 .subtituloprincipal{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
     text-align: left;
-    text-shadow: 0px 0px 5px rgb(0, 0, 0);
-    font-size: 2.5vw;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.534);
+    font-size: 3vw;
     margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(0, 8, 161);
+    border-radius: 10px;
 }
 .contenedornosotros{
+    margin: 30px 0px;
     display: flex;
     align-items: center;
-    width: 80vw;
-    margin: 30px 0px 20px 20px;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.692);
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7);
 }
 .reunion{
     width: 30vw;
@@ -56,12 +55,11 @@ margin: 80px 20px 20px 20px;
     color: rgb(80, 89, 255);
     font-size: 3vw;
     text-align: left;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.271);
 }
 .respuestacont{
     margin: 10px;
-    width: fit-content;
-    background-color: rgb(0, 8, 161);
-    border-radius: 10px;
+    flex-direction: column;
 }
 .textonosotros{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -70,13 +68,18 @@ margin: 80px 20px 20px 20px;
     text-align: left;
 }
 .textosoporte{
-    text-align: center;
+    display: flex;
+    margin: 20px;
+    text-align: left;
     color: #f0f8ff;
     background-color: gray;
     border-radius: 5px;
     padding: 10px;
     transition: all 0.5s ease;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.692);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.563);
+}
+.imgsoporte{
+    margin: 10px;
 }
 .textosoporte:hover{
     padding: 20px;
@@ -103,39 +106,131 @@ margin: 80px 20px 20px 20px;
     background-color: #09C;
   }
 .contventajas{
-    height: fit-content;
-    background-color: #94c1e8;
-    margin: 20px;
-    padding: 5px;
-    border-radius: 5px;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 25px 10px ;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.775);
+    border-radius: 3px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.559);
+}
+.subventajas{
+    text-align: center;
+    color: white;
+    margin: 30px 5px;
+    font-size: 20p;    
+}
+.contprincipales{
+    background-color: #000000;
+    border-radius: 3px;
+    margin: 25px 10px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.581);
 }
 .ventajas{
-    background-color: #ffffff;
-    color: #3989cf;
+    background-color: #000000;
+    color: #ffffff;
     padding: 5px;
+    margin-top: 0;
+    border-radius: 3px;
+}
+.textoventajas{
+    color: rgb(0, 0, 67);
     text-align: center;
-    border-radius: 5px;
-    
+    margin: 10px 10px;
+    font-weight:bold;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contservicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .contnumeros{
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
     display: flex;
-    margin-top: 10px;
+    background-color: rgb(58, 74, 255);
+    width: 60vh;
+    border-radius: 5px;
+    margin: 10px 5px;
+    box-shadow: 10px 10px 0px rgb(66, 70, 168);
+}
+.contcolumn{
+    flex-direction: column;
+}
+.circulo{
+    padding: auto;
 }
 .numeros{
-    color: rgb(12, 0, 147);
-    margin: 5px;
-
+    top: 0;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius: 100%;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.534);
 }
 .servicio{
-    margin: 5px;
-    text-align: center;
-    font-size: 2vw;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: left;
 }
 .textoservicio{
     text-align: left;
-    margin-left: 5px;
-    color: #09C;
+    margin: 20px 20px;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-weight: 1000;
+}
+.trabajo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: xx-large;
+    background-color: rgb(9, 9, 74);
+    padding: 10px;
+    border-radius: 5px;
+}
+.conttrabajo{
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.481);
+    border-radius: 5px;
+}
+.textotrabajo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(102, 102, 102);
+    margin: 30px;
+    text-align: justify;
+    font-size: small;
+}
+.tipotrabajo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: small;
+    text-decoration: underline rgb(0, 0, 255);
+    margin: 30px;
+    text-align: justify;
+    font-weight: 800;
+}
+.gestion{
+    color: #ffffff;
+    padding: 10px;
+    background-color: #acacac;
+    width: fit-content;
+}
+.titulogalvan{
+    color: #000569;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+.textogalvan{
+    text-align: justify;
+    margin: 20px 10px;
+    font-size: small;
+    font-weight: 700;
 }

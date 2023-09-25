@@ -1,11 +1,12 @@
 
 .footer {
-    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.566);
     background-color:rgb(2, 0, 142);
     max-width: 100%;
-    max-height: 300px;
-    margin: auto;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     color: rgb(91, 88, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

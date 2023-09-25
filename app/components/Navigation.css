@@ -1,46 +1,46 @@
 .nav{
-    background-color: rgb(0, 0, 120);
-    justify-content: space-around;
-    align-items: center;
+    background-color: rgb(0, 0, 136);
+    box-shadow: 0px 0px 15px;
     position: fixed; 
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    box-shadow: 5px 5px 15px  rgb(0, 0, 0);
+    display: flex;
 }
 .nav-lista {
     display: flex;
     list-style: none;
     align-items: center;
-    padding: 10px;
-    justify-content: space-around;
+    margin: 10px;
+    margin-left: 100px;
 }
 
 .nav-item {
-    padding: 10px;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
     text-align: center;
-    background-color: rgb(0, 44, 239);
+    background-color: rgb(0, 12, 92);
     transition: all 0.5s ease; 
     border-radius: 5px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.468);
-    margin-left: 20px;
 }
+
 .nav-item:hover{
-    padding: 5px 10px;
-    background: rgb(127, 120, 255);
+    padding: 15px 18px;
+    background: rgb(102, 94, 255);
     border-radius: 5px;
 }
 .nav-text{
+    font-size:medium;
     text-decoration: none;
-    font-weight: lighter;
+    font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
 .nav-text:hover{
-    color: hsl(0, 0%, 100%);
-    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.718);
+    color: hsl(237, 100%, 50%);
 }
 .logo-galvan{
-    width: 50%;
+    margin: 10px;
+    width: 15vw;
 }
