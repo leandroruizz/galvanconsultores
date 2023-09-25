@@ -1,7 +1,7 @@
 import './contact.css'
 import Whatsapp from '@/app/components/Whatsapp'
 import Form from '@/app/components/Form'
-import Whatsapp from '@/app/components/Whatsapp'
+
 export default function Contact() {
     return (
         <main className='contacto'>
