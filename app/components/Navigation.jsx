@@ -21,6 +21,9 @@ export default function Navigation () {
                 <li className='nav-item'>
                     <Link className='nav-text' href='/contact'>Contacto</Link>
                 </li>
+                <li className='nav-registro'>
+                    <Link className='text-registro' href='http://gaconsultores.com.ar/intranet/titanio/app.php/titanio/ '>Registro</Link>
+                </li>
             </div>
         </nav>
     )

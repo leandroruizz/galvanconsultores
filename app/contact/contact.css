@@ -6,7 +6,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: #11003a;
-    margin: 10px;
+    text-decoration: solid rgba(128, 128, 128, 0.857);
 }
 
 .texto-contacto {

@@ -27,7 +27,7 @@ export default function Inicio() {
           </div>
           <div className={styles.contventajas}>
             <h3 className={styles.ventajas}>ASESORAMIENTO</h3>
-            <p className={styles.textoventajas}>Abogados, contadores, peritos</p>
+            <p className={styles.textoventajas}>Abogados, Contadores, Peritos</p>
           </div>
           <div className={styles.contventajas}>
             <h3 className={styles.ventajas}>COMUNICACIÓN</h3>
@@ -50,7 +50,7 @@ export default function Inicio() {
                 <h1 className={styles.numeros}>1</h1>
               </div>
               <div className={styles.contcolumn}>
-                <h2 className={styles.servicio}>Seguros y ART</h2>
+                <h2 className={styles.servicio}>Seguros y A.R.T</h2>
                 <p className={styles.textoservicio}>A lo largo de los últimos años se han incrementado notablemente las denuncias de siniestros en estas materias. En igual proporción creció el índice de litigiosidad, que desborda hacia la esferas Civil y Laboral acompañado por parte de la Jurisprudencia ineficas de nuestros Tribunales.</p>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function Inicio() {
           y todas aquellas acciones, que cada caso en particular requiera y nutran de elementos de convicción suficiente, para establecer la realidad de los hechos. Abarcando las zonas de Capital Federal, Provincia de Buenos Aires e interior del País.
           Complementariamente, ante la certeza de la real ocurrencia del accidente denunciado y en los casos de intervención de terceros, como por ejemplo, en los accidentes de tránsito, nos ocupamos en determinar la responsabilidad en la ocurrencia, tomando vistas de las actuaciones Jurisdiccionales y consecuentemente, realizando los recuperos de credito.</p>
           <h1 className={styles.gestion}>Gestión Exitosa ☆☆☆☆☆</h1>
-          <p className={styles.textotrabajo}>Las gestiones realizadas por Estudio Galván & Asociados se caracterizan por un alto foco en los resultados.
+          <p className={styles.textotrabajo}>Las gestiones realizadas por Estudio Galván se caracterizan por un alto foco en los resultados.
           Como dato estadístico, nuestra intervención significó para nuestros clientes, un ahorro promedio del 50% sobre el total de siniestros verificados en el último año.</p>
           <p className={styles.tipotrabajo}>Detección de Fraudes</p>
           <p className={styles.tipotrabajo}>Siniestros Rechazados</p>
@@ -105,7 +105,7 @@ export default function Inicio() {
         <div>
           <h2 id='nosotros' className={styles.titulogalvan}>Galvan Consultores</h2>
            <p className={styles.textogalvan}>Nace como respuesta a la necesidad de las Compañías Aseguradoras y ART, de contar con un soporte legal y técnico para la verificación e investigación de siniestros.
-           Al momento de determinar nuestro objeto principal, decidimos abocarnos a los Accidentes contemplados por la Ley 24.557, ya que pudimos determinar que era un mercado carente de eficacia investigativa, fundamentalmente por las particularidades de los casos que trata, a lo que se suma el corto plazo que las normas establecen para aceptar o no el siniestro, lo que facilita notablemente la defraudación, provocando -como consecuencia natural- erogaciones innecesarias que pueden evitarse.
+           Al momento de determinar nuestro objeto principal, decidimos abocarnos a los Accidentes contemplados por la Ley 24.557, ya que pudimos determinar que era un mercado carente de eficacia investigativa, fundamentalmente por las particularidades de los casos que trata, a lo que se suma el corto plazo que las normas establecen para aceptar o no el siniestro, lo que facilita notablemente la defraudación, provocando como consecuencia natural erogaciones innecesarias que pueden evitarse.
            Con oficinas en pleno centro porteño, nuestro estudio exhibe un importante despliegue territorial, asistiendo a empresas de primer nivel en todo el país, contando con investigadores y verificadores calificados en las principales plazas del interior.</p>
         </div>
     </main>

@@ -3,16 +3,16 @@ import './Form.css'
 function Form() {
   return (
     <form action="https://formsubmit.co/leandrolmedo2000@gmail.com" method="post" className='formulario'>
-     <label>
-         <h3 className='cont-contacto'>Nombre</h3>
-         <input type="nombre" name="nombre" required="true" />
+     <label className='cont-contacto'>
+         <h3>Nombre</h3>
+         <input className='inputarea' type="nombre" name="nombre" required="true" />
      </label>
-     <label>
-         <h3 className='cont-contacto'>E-Mail</h3>
-         <input type="email" name="email" required="true" />
+     <label className='cont-contacto'>
+         <h3>E-Mail</h3>
+         <input className='inputarea' type="email" name="email" required="true" />
      </label>
-     <label>
-         <h3 className='cont-contacto'>Mensaje</h3>
+     <label className='cont-contacto'>
+         <h3>Mensaje</h3>
          <textarea className='textarea' name="mensaje" required="true"></textarea>
      </label>
      <button className='boton-enviar'type="submit">Enviar</button>
