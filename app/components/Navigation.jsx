@@ -4,7 +4,7 @@ import './Navigation.css'
 export default function Navigation () {
     return (
         <nav className='nav'>
-            <img className='logo-galvan' src="./imagenes/logogalvan.png" alt="" />
+            <img className='logo-galvan' src="./imagenes/logogalvanblanco.png" alt="" />
             <div className='nav-lista'>
                 <li className='nav-item'>
                     <Link className='nav-text' href='./'>Inicio</Link>

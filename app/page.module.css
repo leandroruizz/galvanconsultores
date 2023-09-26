@@ -31,7 +31,7 @@
     margin: 10px;
     padding: 10px;
     width: fit-content;
-    background-color: rgb(0, 8, 161);
+    background-color: rgb(49, 60, 213);
     border-radius: 10px;
 }
 .contenedornosotros{
@@ -69,8 +69,8 @@
     display: flex;
     margin: 20px;
     text-align: left;
-    color: #f0f8ff;
-    background-color: gray;
+    color: #000000;
+    background-color: rgb(162, 154, 245);
     border-radius: 5px;
     padding: 10px;
     transition: all 0.5s ease;
@@ -80,9 +80,8 @@
     margin: 10px;
 }
 .textosoporte:hover{
-    padding: 20px;
     background-color: white;
-    color: black;
+    color: #292929;
 }
 .contenedorprincipales{
     display: flex;
@@ -108,7 +107,6 @@
     background-color: #ffffff;
     margin: 25px 10px ;
     top: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.775);
     border-radius: 3px;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.559);
 }
@@ -116,16 +114,16 @@
     text-align: center;
     color: white;
     margin: 30px 5px;
-    font-size: 20p;    
+    font-size: 20vp;    
 }
 .contprincipales{
-    background-color: #000000;
+    background-color: #546deb;
     border-radius: 3px;
     margin: 25px 10px;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.581);
 }
 .ventajas{
-    background-color: #000000;
+    background-color: #546deb;
     color: #ffffff;
     padding: 5px;
     margin-top: 0;
@@ -146,11 +144,11 @@
 }
 .contnumeros{
     display: flex;
-    background-color: rgb(58, 74, 255);
+    background-color: rgb(58, 71, 255);
     width: 60vh;
     border-radius: 5px;
-    margin: 10px 5px;
-    box-shadow: 10px 10px 0px rgb(66, 70, 168);
+    margin: 10px 10px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.544);
 }
 .contcolumn{
     flex-direction: column;
@@ -164,7 +162,7 @@
     color: rgb(255, 255, 255);
     margin: 10px;
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: #96c5ff;
     border-radius: 100%;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.534);
 }
@@ -213,10 +211,9 @@
     font-weight: 800;
 }
 .gestion{
-    color: #ffffff;
+    color: #000569;
     padding: 10px;
-    background-color: #acacac;
-    width: fit-content;
+    background-color: #dadada;
 }
 .titulogalvan{
     color: #000569;

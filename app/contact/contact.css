@@ -6,7 +6,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: #11003a;
-    text-decoration: solid rgba(128, 128, 128, 0.857);
+    text-decoration:underline rgb(170, 170, 170);
 }
 
 .texto-contacto {
@@ -18,4 +18,9 @@
     margin-bottom: 30px;
     margin-left: 30%;
     margin-right: 30%;
+}
+.imgform{
+    margin-left: 39%;
+    width: 20vw;
+    
 }

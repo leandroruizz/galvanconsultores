@@ -7,6 +7,7 @@ export default function Contact() {
         <main className='contacto'>
             <Whatsapp/>
             <div>
+              <img className='imgform' src="./imagenes/logogalvan.png" alt="" />
               <h1 className='titulo-contacto'>Contáctenos</h1>
               <p className='texto-contacto'></p>
               <Form/>
