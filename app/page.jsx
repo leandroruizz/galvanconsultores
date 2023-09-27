@@ -42,7 +42,8 @@ export default function Inicio() {
             <p className={styles.textoventajas}>Operamos en todo el país</p>
           </div>
         </div>
-        <div id='servicios'>
+        <section id='servicios' className={styles.section}>
+        <div className='margin-seccion'>
           <h1 className={styles.subtitulo}>Sobre Nuestros Servicios</h1>
           <div className={styles.contservicios}>
             <div className={styles.contnumeros}>
@@ -89,7 +90,9 @@ export default function Inicio() {
             <p>Con el objeto de brindar un servicio integral a las aseguradoras, poseemos un área Legal, que interviene en mediaciones y litigios donde estas son parte.</p>
           </div>
         </div>
-        <div id='trabajo' className={styles.conttrabajo}>
+        </section>
+        <section id='trabajo' className={styles.section}>
+        <div className={styles.conttrabajo}>
           <h1 className={styles.trabajo}>Sobre nuestra forma de trabajo</h1>
           <p className={styles.textotrabajo}>Nuestra finalidad es dar respuesta inmediata a las aseguradoras, frente a los accidentes mencionados, realizando una investigación cabal, a través de entrevistas con las partes, recabando la documentación correspondiente, inspecciones en los lugares donde se produjo el siniestro, búsqueda de testigos, constataciones judiciales
           y todas aquellas acciones, que cada caso en particular requiera y nutran de elementos de convicción suficiente, para establecer la realidad de los hechos. Abarcando las zonas de Capital Federal, Provincia de Buenos Aires e interior del País.
@@ -102,12 +105,15 @@ export default function Inicio() {
           <p className={styles.tipotrabajo}>Fuera de Nóminas</p>
           <p className={styles.tipotrabajo}>Recuperos de créditos contra terceros responsables</p>
         </div>
+        </section>
+        <section id='nosotros' className={styles.section}>
         <div>
-          <h2 id='nosotros' className={styles.titulogalvan}>Galvan Consultores</h2>
+          <h2 className={styles.titulogalvan}>Galvan Consultores</h2>
            <p className={styles.textogalvan}>Nace como respuesta a la necesidad de las Compañías Aseguradoras y ART, de contar con un soporte legal y técnico para la verificación e investigación de siniestros.
            Al momento de determinar nuestro objeto principal, decidimos abocarnos a los Accidentes contemplados por la Ley 24.557, ya que pudimos determinar que era un mercado carente de eficacia investigativa, fundamentalmente por las particularidades de los casos que trata, a lo que se suma el corto plazo que las normas establecen para aceptar o no el siniestro, lo que facilita notablemente la defraudación, provocando como consecuencia natural erogaciones innecesarias que pueden evitarse.
            Con oficinas en pleno centro porteño, nuestro estudio exhibe un importante despliegue territorial, asistiendo a empresas de primer nivel en todo el país, contando con investigadores y verificadores calificados en las principales plazas del interior.</p>
         </div>
+        </section>
     </main>
   )
 } 

@@ -1,10 +1,12 @@
-
+.section {
+  scroll-margin-top: 13vw;
+}
 .conttitulo{
     width: 100%;
     background-image: url('../public/imagenes/backroundgalvan.jpg');
     background-size: 100%;
     border-radius: 10px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
 }
 .tituloprincipal{
     margin-top: 9vw;
@@ -20,13 +22,13 @@
     background-color: rgb(9, 9, 74);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
 }
 .subtituloprincipal{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
     text-align: left;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.534);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.245);
     font-size: 3vw;
     margin: 10px;
     padding: 10px;
@@ -40,7 +42,7 @@
     align-items: center;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
 }
 .reunion{
     width: 30vw;
@@ -53,7 +55,7 @@
     color: rgb(80, 89, 255);
     font-size: 3vw;
     text-align: left;
-    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.271);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.209);
 }
 .respuestacont{
     margin: 10px;
@@ -74,7 +76,7 @@
     border-radius: 5px;
     padding: 10px;
     transition: all 0.5s ease;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.563);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.279);
 }
 .imgsoporte{
     margin: 10px;
@@ -108,7 +110,7 @@
     margin: 25px 10px ;
     top: 0;
     border-radius: 3px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.559);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
 }
 .subventajas{
     text-align: center;
@@ -120,7 +122,7 @@
     background-color: #546deb;
     border-radius: 3px;
     margin: 25px 10px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.581);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
 }
 .ventajas{
     background-color: #546deb;
@@ -148,7 +150,7 @@
     width: 60vh;
     border-radius: 5px;
     margin: 10px 10px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.544);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
 }
 .contcolumn{
     flex-direction: column;
@@ -173,11 +175,11 @@
     text-align: left;
 }
 .textoservicio{
-    text-align: left;
-    margin: 20px 20px;
+    text-align: justify;
+    margin: 20px 30px;
     color: rgb(255, 255, 255);
     font-size: small;
-    font-weight: 1000;
+    font-weight: 700;
 }
 .trabajo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -191,7 +193,7 @@
 .conttrabajo{
     background-color: white;
     padding-bottom: 20px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.481);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
     border-radius: 5px;
 }
 .textotrabajo{
