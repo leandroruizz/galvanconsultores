@@ -4,6 +4,10 @@ import './Navigation.css'
 export default function Navigation () {
     return (
         <nav className='nav'>
+            <input type="checkbox" id='check'/>
+            <label for="check" className='checkbtn'>
+                <img className='bars' src="imagenes/fabars.png" width={30}/>
+            </label>
             <img className='logo-galvan' src="./imagenes/logogalvanblanco.png" alt="" />
             <div className='nav-lista'>
                 <li className='nav-item'>
