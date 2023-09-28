@@ -43,6 +43,7 @@
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.219);
+    margin-bottom: 10vw;
 }
 .reunion{
     width: 30vw;
@@ -90,6 +91,7 @@
     overflow-x: auto;
     scrollbar-gutter: stable;
     padding: 20px;
+    margin-bottom: 10vw;
 }
 .contenedorprincipales::-webkit-scrollbar {
     width: 10px;
@@ -143,6 +145,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
 }
 .contnumeros{
     display: flex;
@@ -175,11 +179,13 @@
     text-align: left;
 }
 .textoservicio{
-    text-align: justify;
-    margin: 20px 30px;
-    color: rgb(255, 255, 255);
+    text-align: left;
     font-size: small;
     font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
 }
 .trabajo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -230,4 +236,12 @@
     margin: 20px 10px;
     font-size: small;
     font-weight: 700;
+}
+.cont360{
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+.contgalvan{
+    margin-top: 5vw;
+    margin-bottom: 10vw;
 }

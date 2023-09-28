@@ -75,8 +75,8 @@ export default function Inicio() {
             </div>
           </div>
         </div>
-        <div>
           <h2 className={styles.subtitulo}>Soporte 360º</h2>
+        <div className={styles.cont360}>
           <div className={styles.textosoporte}>
             <img className={styles.imgsoporte} width={70} height={40} src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2018/01/web-20180107125619306065-1560x927.png" alt="" />
             <p>Su empresa contará con nuestro soporte las 24hs. del día, los 365 días del año, en cualquier localidad del país, reduciendo su exposición a potenciales litigios o fraudes</p>
@@ -107,7 +107,7 @@ export default function Inicio() {
         </div>
         </section>
         <section id='nosotros' className={styles.section}>
-        <div>
+        <div className={styles.contgalvan}>
           <h2 className={styles.titulogalvan}>Galvan Consultores</h2>
            <p className={styles.textogalvan}>Nace como respuesta a la necesidad de las Compañías Aseguradoras y ART, de contar con un soporte legal y técnico para la verificación e investigación de siniestros.
            Al momento de determinar nuestro objeto principal, decidimos abocarnos a los Accidentes contemplados por la Ley 24.557, ya que pudimos determinar que era un mercado carente de eficacia investigativa, fundamentalmente por las particularidades de los casos que trata, a lo que se suma el corto plazo que las normas establecen para aceptar o no el siniestro, lo que facilita notablemente la defraudación, provocando como consecuencia natural erogaciones innecesarias que pueden evitarse.
