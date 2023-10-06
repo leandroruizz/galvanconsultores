@@ -44,7 +44,7 @@ export default function Inicio() {
         </div>
         <section id='servicios' className={styles.section}>
         <div className='margin-seccion'>
-          <h1 className={styles.subtitulo}>Sobre Nuestros Servicios</h1>
+          <h1 className={styles.subservicios}>Sobre Nuestros Servicios</h1>
           <div className={styles.contservicios}>
             <div className={styles.contnumeros}>
               <div className={styles.circulo}>
@@ -97,7 +97,7 @@ export default function Inicio() {
           <p className={styles.textotrabajo}>Nuestra finalidad es dar respuesta inmediata a las aseguradoras, frente a los accidentes mencionados, realizando una investigación cabal, a través de entrevistas con las partes, recabando la documentación correspondiente, inspecciones en los lugares donde se produjo el siniestro, búsqueda de testigos, constataciones judiciales
           y todas aquellas acciones, que cada caso en particular requiera y nutran de elementos de convicción suficiente, para establecer la realidad de los hechos. Abarcando las zonas de Capital Federal, Provincia de Buenos Aires e interior del País.
           Complementariamente, ante la certeza de la real ocurrencia del accidente denunciado y en los casos de intervención de terceros, como por ejemplo, en los accidentes de tránsito, nos ocupamos en determinar la responsabilidad en la ocurrencia, tomando vistas de las actuaciones Jurisdiccionales y consecuentemente, realizando los recuperos de credito.</p>
-          <h1 className={styles.gestion}>Gestión Exitosa ☆☆☆☆☆</h1>
+          <h1 className={styles.gestion}>Gestión Exitosa</h1>
           <p className={styles.textotrabajo}>Las gestiones realizadas por Estudio Galván se caracterizan por un alto foco en los resultados.
           Como dato estadístico, nuestra intervención significó para nuestros clientes, un ahorro promedio del 50% sobre el total de siniestros verificados en el último año.</p>
           <p className={styles.tipotrabajo}>Detección de Fraudes</p>
